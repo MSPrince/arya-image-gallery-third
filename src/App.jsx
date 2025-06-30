@@ -19,9 +19,9 @@ export default function App() {
           <img src={logoSrc} alt="Logo" className="logo" />
         </div>
         <div className={`navbar-links ${menuOpen ? 'open' : ''}`}>
-          <a href="#" className="nav-link">First-Gallery</a>
-          <a href="#" className="nav-link">Second-Gallery</a>
-          <a href="#" className="nav-link">Third-Gallery</a>
+         <a href="https://arya-image-gallery.onrender.com" className="nav-link">First-Gallery</a>
+          <a href="https://arya-image-gallery-second.onrender.com" className="nav-link">Second-Gallery</a>
+          <a href="https://arya-image-gallery-third.onrender.com" className="nav-link">Third-Gallery</a>
         </div>
         <button className="toggle-button" onClick={() => setDarkMode(!darkMode)}>
           {darkMode ? '🌞' : '🌙'}
