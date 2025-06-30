@@ -10,7 +10,7 @@ export default function App() {
     document.body.className = darkMode ? 'dark' : 'light';
   }, [darkMode]);
 
-  const logoSrc = darkMode ? "/public/images/logo1.png" : "/public/images/logo2.png";
+  const logoSrc = darkMode ? "/images/logo1.png" : "/images/logo2.png";
 
   return (
     <>
